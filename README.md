@@ -129,7 +129,7 @@ Only elementwise operations are fused. Matmuls and linear layers run through PyT
 
 ## How this was built
 
-The graph IR, dead code elimination, fusion, the interpreter were all written by me. Code generation, but especially the autotuner, required the assistance of an LLM, then reviewed. The tests and benchmark scripts were generated with AI assistance on purpose, so I could spend my time on the compiler. Every result here was run and checked on my own hardware.
+The graph IR, dead code elimination, fusion, the interpreter were all written by me. Code generation, but especially the autotuner, required the assistance of an LLM. The tests and benchmark scripts were generated with AI assistance on purpose, so I could spend my time on the compiler. Every result here was run and checked on my own hardware.
 
 ## Environment
 
